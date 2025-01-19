@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="home-page">
+    <div class="content text-center">
+        <h1 class="display-4">Welcome to SuperMovies!</h1>
+        <p class="lead">Manage your favorite movies easily!</p>
+        <a asp-controller="Movies" asp-action="Index" class="btn btn-primary btn-md mt-4">Go to Movies</a>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .home-page {
+            /* Taustakuvan asettaminen */
+            background-image: url('https://source.unsplash.com/random/1920x1080');
+            background-size: cover; /* Kuva skaalautuu täyttämään alueen */
+            background-position: center; /* Keskittää kuvan */
+            background-repeat: no-repeat; /* Estää kuvan toistamisen */
+            width: 100%; /* Koko sivun leveys */
+            height: 100vh; /* Koko sivun korkeus */
+            display: flex; /* Keskittää sisällön */
+            align-items: center; /* Keskittää pystysuunnassa */
+            justify-content: center; /* Keskittää vaakasuunnassa */
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); /* Tumma läpinäkyvä tausta tekstille */
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff; /* Tekstin väri valkoiseksi */
+        }
+
+        .btn {
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    </style>
+}
