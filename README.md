@@ -21,13 +21,13 @@ SuperMovies is an ASP.NET Core MVC application designed to help users manage the
 
 Below is a preview of the application:
 
-![SuperMovies Screenshot](wwwroot/images/movies.png)
+![SuperMovies Screenshot](/images/movies.png)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Moontags/movies.git
    ```
 2. Navigate to the project directory:
    ```bash
