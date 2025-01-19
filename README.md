@@ -21,7 +21,7 @@ SuperMovies is an ASP.NET Core MVC application designed to help users manage the
 
 Below is a preview of the application:
 
-![SuperMovies Screenshot](/images/movies.png)
+![SuperMovies Screenshot](wwwroot/images/movies.png)
 
 ## Installation
 
